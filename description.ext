@@ -1,0 +1,14 @@
+#include "Persistent\defines.hpp"
+#include "Persistent\dialog.hpp"
+
+author = "Prince F90";
+onLoadName = "ARMAPERSCORE";
+onLoadMission = "ARMA Persistent Core System";
+loadScreen = "";
+
+saving = 0;
+
+class CfgFunctions
+{
+    #include "Persistent\cfgFunctions.hpp"
+};
