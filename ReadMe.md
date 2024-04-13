@@ -15,7 +15,7 @@ Arma Persistent Core System is a script that enables ARMA 3 mission maker to eas
 * Persist all map markers including player placed markers. 
 
 ## Installation
-* Download the latest release from the [releases]() page.
+* Download the latest release from the [releases](https://github.com/NikolaiF90/ArmaPersistentCoreSystem/releases) page.
 * Extract ARMAPERSCORE from the zip file to your mission folder.
 
 ## Usage
