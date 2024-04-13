@@ -54,11 +54,14 @@ randomSeed=885212;
 class ScenarioData
 {
 	author="PrinceF90";
+	overviewText="Arma Persistent Core System";
 };
 class Mission
 {
+	assetType="Free";
 	class Intel
 	{
+		briefingName="ARMAPERSCORE";
 		timeOfChanges=1800.0002;
 		startWeather=0;
 		startWind=0.1;
