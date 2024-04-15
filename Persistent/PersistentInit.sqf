@@ -3,11 +3,8 @@ configurePersistentDone = false;
 [] call F90_fnc_configurePersistent;
 waitUntil {configurePersistentDone};
 
-// Add anything to save here
-Persistent_VehiclesToSave = [];
-Persistent_ContainersToSave = [];
-
 Persistent_DefaultSlots = ["Empty Slot"];
+
 //Keys
 Persistent_PersistentListKey = Scenario_Name + "_PersistentList";
 Persistent_VehicleIDKey = "Save_QueueID";

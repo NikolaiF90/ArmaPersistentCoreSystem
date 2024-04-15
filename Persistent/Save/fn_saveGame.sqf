@@ -10,5 +10,5 @@ params ["_slot"];
 [_slot] call F90_fnc_saveEnvironment;
 [_slot] call F90_fnc_saveMapMarkers;
 
-saveProfileNamespace;
+saveMissionProfileNamespace;
 [PersistentDebug, "saveGame", format ["Done saving progress into slot %1", _slot], true] call F90_fnc_debug;
