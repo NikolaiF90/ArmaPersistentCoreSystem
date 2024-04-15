@@ -24,6 +24,7 @@ Persistent_SaveIntervals = 600; // This does nothing for now
 // Add anything to save here
 Persistent_VehiclesToSave = [];
 Persistent_ContainersToSave = [];
+Persistent_VariablesToSave = [];
 
 configurePersistentDone = true; // do not change this
 [PersistentDebug, "configurePersistent", format ["Done configuring %1.", Scenario_Name], true] call F90_fnc_debug;
