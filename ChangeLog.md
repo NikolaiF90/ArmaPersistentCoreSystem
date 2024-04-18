@@ -5,5 +5,6 @@ None currently
 
 ## Version History
 
-* Version 1.0.0
-    - Initial Release
+* Version 1.0.1a
+    - Updated the namespace for saving datas from profileNamespace to missionProfileNamespace.
+    - Added the ability to save custom variables and the ability to load it.

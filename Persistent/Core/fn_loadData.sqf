@@ -21,14 +21,14 @@ if (typeName _key == "STRING") then
 {
 	_loadKey = _key;
 	_keyToFind = format ["%1.%2.%3", Persistent_SavePrefix, _slot, _loadKey];
-	_returnData = profileNamespace getVariable _keyToFind;
+	_returnData = missionProfileNamespace getVariable _keyToFind;
 };
 if (typeName _key == "ARRAY") then 
 {
 	_loadKey = _key # 0;
 	_default = _key # 1;
 	_keyToFind = format ["%1.%2.%3", Persistent_SavePrefix, _slot, _loadKey];
-	_returnData = profileNamespace getVariable [_keyToFind, _default];
+	_returnData = missionProfileNamespace getVariable [_keyToFind, _default];
 };
 
 [PersistentDebug, "loadData", format ["Key %1 loaded.", _key, _slot], false] call F90_fnc_debug;

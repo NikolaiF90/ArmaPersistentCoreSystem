@@ -34,6 +34,7 @@ class F90
         class loadPlayer {};
         class loadUnitData {};
         class loadUnitsInGroup {};
+        class loadVariables {};
         class loadVehicles {};
     };
 
@@ -45,6 +46,7 @@ class F90
         class saveGame {};
         class saveMapMarkers {};
         class savePlayer {};
+        class saveVariables {};
         class saveVehicles {};
     };
 
@@ -64,5 +66,7 @@ class F90
         class generateUnitData {};
         class generateVehicleID {};
         class getByKey {};
+        class loadFromNamespace {};
+        class saveToNamespace {};
     };
 };
