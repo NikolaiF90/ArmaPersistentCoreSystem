@@ -6,7 +6,7 @@
 ![CoverImage](Images/Cover_Image.jpg)
 
 ## Description
-Arma Persistent Core System is a script that enables ARMA 3 mission maker to easily implement a save system for their mission (if you do not prefer vanilla save system) as vanilla save system will cause a lot of issues for large scale mission. Imagine Antistasi. This script is heavily modified from original [Persistent Save System by Sukhoi191](https://gitlab.com/sukhoi191_a3/arma-3-persistent-save-system). The original script is currently no longer maintained (as far as I know of) and had a lot of bugs. This modified/revisited version features flexibiliy, optimized, and a simple custom GUI intended for saving and loading. 
+Arma Persistent Core System is a script that enables ARMA 3 mission maker to easily implement a save system for their mission (if you do not prefer vanilla save system) as vanilla save system will cause a lot of issues for large scale mission. Imagine Antistasi. This script is heavily modified from original [Persistent Save System by Sukhoi191](https://gitlab.com/sukhoi191_a3/arma-3-persistent-save-system). The original script is currently no longer maintained (as far as I know of) and had a lot of bugs. This modified/revisited version features flexibiliy, optimized, and a simple custom GUI intended for saving and loading. There is also a [mod version](https://github.com/jschmidt92/ArmaDatabaseFramework) that's just released recently. Huge thanks to [Jacob Schmidt](https://github.com/jschmidt92)
 
 ## Features 
 * Persist vehicle position, rotation, crew, turret and etc.
@@ -42,3 +42,4 @@ With this license you are free to adapt (i.e. modify, rework or update) and shar
 ## Credits
 * [NikolaiF90 (PrinceF90)](https://github.com/NikolaiF90)
 * [Sukhoi191](https://gitlab.com/sukhoi191)
+* [Jacob Schmidt](https://github.com/jschmidt92)
